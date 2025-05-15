@@ -9,5 +9,5 @@ Chapters:
     -   [Perceptron](chapters/Basics-of-NN/Perceptron/Perceptron)
     -   [Neuron](chapters/Basics-of-NN/Neuron/Neuron)
     -   [Difference Between Perceptron and
-        Neuron](chapters/Basics-of-NN/Perceptron-Neuron)
+        Neuron](chapters/Basics-of-NN/Neuron/Perceptron-Neuron)
     -   [Weight](chapters/Basics-of-NN/Weight)

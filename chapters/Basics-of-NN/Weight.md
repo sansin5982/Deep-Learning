@@ -1,4 +1,4 @@
-# Weight?
+# Weight
 
 In deep learning, **weights are numbers that represent the importance of each input to a neuron**.  
 They **control how much influence an input has on the output of a neuron**.
@@ -20,7 +20,7 @@ So you can assign:
 
 Then, your **overall score of the cake** would be calculated as:
 $$
-\large \text{Score} = (\text{Taste Rating} \times 0.6) + (\text{Look Rating} \times 0.3) + (\text{Smell Rating} \times 0.1)
+\text{Score} = (\text{Taste Rating} \times 0.6) + (\text{Look Rating} \times 0.3) + (\text{Smell Rating} \times 0.1)
 $$
 
 Thus, **weights tell the model which input is more important in decision-making.**
@@ -109,10 +109,9 @@ This **learning process** is done using algorithms like **Gradient Descent**.
 ---
 
 #### Mathematical View (Simplified)
+<!-- Force load MathJax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 $$
 \large \text{New Weight} = \text{Old Weight} - \alpha \times \frac{\partial \text{Error}}{\partial \text{Weight}}
@@ -121,6 +120,7 @@ $$
 Where:  
 - \( \alpha \): Learning Rate (small positive number)  
 - \( \frac{\partial \text{Error}}{\partial \text{Weight}} \): Gradient of Error with respect to Weight  
+
 
 
 ---
