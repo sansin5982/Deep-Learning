@@ -7,4 +7,4 @@ Chapters:
 -   [Biological Inspiration](chapters/Biological-Inspiration)
 -   [Basics of Neural Network](chapters/Basics-of-NN)
     -   [Perceptron](chapters/Basics-of-NN/Perceptron/Perceptron)
-    -   [Neuron](chapters/Basics-of-NN/Neuron)
+    -   [Neuron](chapters/Basics-of-NN/Neuron/Neuron)
