@@ -96,3 +96,8 @@ This is what a neuron does!
 - Multiple neurons connected together form layers that can solve **very complex tasks like face recognition, language translation, etc.**
 
 ---
+
+
+```python
+
+```
