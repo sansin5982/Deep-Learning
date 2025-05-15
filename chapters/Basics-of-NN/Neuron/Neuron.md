@@ -23,9 +23,9 @@ It is the **core building block of any neural network**.
 </script>
 
 
-$
+$$
 z = \sum (w_i \times x_i) + b
-$
+$$
 
 4. **Activation Function:**  
    - Applies a function to add non-linearity (like decision-making).
@@ -43,14 +43,14 @@ $
 </script>
 
 
-$
+$$
 \text{Output} = Activation\left(\sum_{i=1}^{n} (w_i \times x_i) + b\right)
-$
+$$
 
 Where:
-- $w_i$ = weight
-- $x_i$ = input
-- $b$ = bias
+- \( w_i \) = weight
+- \( x_i \) = input
+- \( b \) = bias
 - Activation() = function like Sigmoid, ReLU
 
 ---
@@ -66,9 +66,9 @@ You add the scores with different importance:
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-$
+$$
 \text{Final Grade} = (\text{Homework} \times 0.4) + (\text{Exam} \times 0.6)
-$
+$$
 
 If the **result is above a threshold**, you decide **Pass**; else, **Fail**.
 
@@ -80,12 +80,13 @@ This is what a neuron does!
 
 | Component             | Role                                       |
 |-----------------------|--------------------------------------------|
-| Inputs $(x_1, x_2, ...$)   | Raw data                                |
-| Weights ($w_1, w_2, ...$) | Importance of each input                |
-| Bias ($b$)            | Adjustment to the output                   |
+| Inputs \( x_1, x_2, \ldots \)   | Raw data                                |
+| Weights \( w_1, w_2, \ldots \) | Importance of each input                |
+| Bias \( b \)            | Adjustment to the output                   |
 | Summation               | Weighted sum of inputs and bias            |
 | Activation Function     | Adds non-linearity (like decision-making)  |
 | Output                  | Final result                               |
+
 
 ---
 
@@ -97,7 +98,7 @@ This is what a neuron does!
 ---
 
 ## Visual Representation of an Artificial Neuron
-<img src="hidden.png" alt="Drawing" style="width: 800px;"/>
+<img src="hidden.png" alt="Drawing" style="width: 600px;"/>
 
 ---
 
@@ -107,8 +108,3 @@ This is what a neuron does!
 - Multiple neurons connected together form layers that can solve **very complex tasks like face recognition, language translation, etc.**
 
 ---
-
-
-```python
-
-```
