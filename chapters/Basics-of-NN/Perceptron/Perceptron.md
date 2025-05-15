@@ -11,9 +11,14 @@ The **perceptron** is the simplest form of an artificial neural network, consist
    - Age might have a weight of 0.7
    - ID might have a weight of 0.3
 - **Weighted Sum:**  
-\[
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+$
 \text{Output} = (Age \times 0.7) + (ID \times 0.3)
-\]
+$
 
 - **Bias**: Adjusts the decision boundary of the neuron.
 - **Activation Function**: Usually a step function in a perceptron, determining neuron output.
