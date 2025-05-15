@@ -80,9 +80,9 @@ This is what a neuron does!
 
 | Component             | Role                                       |
 |-----------------------|--------------------------------------------|
-| Inputs \( x_1, x_2, \ldots \)   | Raw data                                |
-| Weights \( w_1, w_2, \ldots \) | Importance of each input                |
-| Bias \( b \)            | Adjustment to the output                   |
+| Inputs (x1, x2, ...)   | Raw data                                |
+| Weights (w1, w2, ...) | Importance of each input                |
+| Bias (b)            | Adjustment to the output                   |
 | Summation               | Weighted sum of inputs and bias            |
 | Activation Function     | Adds non-linearity (like decision-making)  |
 | Output                  | Final result                               |
