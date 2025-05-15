@@ -22,9 +22,10 @@ It is the **core building block of any neural network**.
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-   $
-   z = \sum (w_i \times x_i) + b
-   $
+
+$
+z = \sum (w_i \times x_i) + b
+$
 
 4. **Activation Function:**  
    - Applies a function to add non-linearity (like decision-making).
@@ -36,6 +37,11 @@ It is the **core building block of any neural network**.
 ---
 
 ## Mathematical Formula
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 
 $
 \text{Output} = Activation\left(\sum_{i=1}^{n} (w_i \times x_i) + b\right)
@@ -55,6 +61,11 @@ Imagine you are a **teacher grading students** based on:
 - Exam (weight = 0.6)
 
 You add the scores with different importance:
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 $
 \text{Final Grade} = (\text{Homework} \times 0.4) + (\text{Exam} \times 0.6)
 $
@@ -86,7 +97,7 @@ This is what a neuron does!
 ---
 
 ## Visual Representation of an Artificial Neuron
-<img src="hidden.png" alt="Drawing" style="width: 400px;"/>
+<img src="hidden.png" alt="Drawing" style="width: 800px;"/>
 
 ---
 
