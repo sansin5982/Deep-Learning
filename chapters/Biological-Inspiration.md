@@ -53,6 +53,10 @@ An **artificial neuron** is a simple mathematical function that:
 Each artificial neuron performs a weighted sum of inputs, applies an activation function, and produces an output.
 
 **Mathematically**:
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 $$
 \large y = f\left(\sum_{i=1}^{n} w_i x_i + b\right)
@@ -95,8 +99,3 @@ Where:
 
 Understanding this analogy helps bridge the gap between neuroscience and artificial intelligence, providing a strong foundation for grasping how neural networks function.
 
-
-
-```python
-
-```
