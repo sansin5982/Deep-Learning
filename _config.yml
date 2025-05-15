@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+
+# Navigation (Optional)
+title: "Deep Learning"
+description: "Fundamentals of Deep Learning."
+
+# Enable navigation links
+include:
+  - chapters/
