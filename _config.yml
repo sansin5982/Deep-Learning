@@ -1,4 +1,4 @@
-theme: minima
+theme: jekyll-theme-cayman
 
 # Navigation (Optional)
 title: "Deep Learning"
