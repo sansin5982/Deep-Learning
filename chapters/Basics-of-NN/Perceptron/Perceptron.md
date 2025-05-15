@@ -16,9 +16,9 @@ The **perceptron** is the simplest form of an artificial neural network, consist
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-$
+$$
 \text{Output} = (Age \times 0.7) + (ID \times 0.3)
-$
+$$
 
 - **Bias**: Adjusts the decision boundary of the neuron.
 - **Activation Function**: Usually a step function in a perceptron, determining neuron output.
