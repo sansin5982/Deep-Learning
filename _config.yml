@@ -3,6 +3,9 @@ theme: jekyll-theme-cayman
 # Navigation (Optional)
 title: "Deep Learning"
 description: "Fundamentals of Deep Learning."
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
 
 # Enable navigation links
 include:
