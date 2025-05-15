@@ -11,9 +11,9 @@ The **perceptron** is the simplest form of an artificial neural network, consist
    - Age might have a weight of 0.7
    - ID might have a weight of 0.3
 - **Weighted Sum:**  
-   $
-   \text{Output} = (Age \times 0.7) + (ID \times 0.3)
-   $
+\[
+\text{Output} = (Age \times 0.7) + (ID \times 0.3)
+\]
 
 - **Bias**: Adjusts the decision boundary of the neuron.
 - **Activation Function**: Usually a step function in a perceptron, determining neuron output.
@@ -159,9 +159,9 @@ The **Perceptron Learning Rule** is a simple method that allows the perceptron t
 
 ### Perceptron Learning Rule Formula
 
-$$
-\large \text{New Weight} = \text{Old Weight} + (\text{Learning Rate} \times \text{Error} \times \text{Input})
-$$
+\[
+\text{New Weight} = \text{Old Weight} + (\text{Learning Rate} \times \text{Error} \times \text{Input})
+\]
 
 Where:
 - **Error = Actual Output - Predicted Output**
@@ -318,7 +318,28 @@ for epoch in range(10):  # Maximum 10 epochs
 * Over multiple passes (epochs), it learns the correct rule.
 * This is the basis of how more complex deep learning models learn.
 
-<img src="maxout.png" alt="Drawing" style="width: 400px;"/>
+
+```python
+import matplotlib.image as mpimg
+import matplotlib.pyplot as plt
+
+img = mpimg.imread('maxout.png')
+
+plt.imshow(img)
+```
+
+
+
+
+    <matplotlib.image.AxesImage at 0x1f4b9a24910>
+
+
+
+
+    
+![png](output_7_1.png)
+    
+
 
 Here is the **visual diagram showing how the perceptron updates its weights and bias step by step during learning**.
 
@@ -327,8 +348,3 @@ Here is the **visual diagram showing how the perceptron updates its weights and 
 * Initially, they start at 0.
 * Every time the perceptron makes a mistake, it adjusts its parameters.
 * The updates continue until the perceptron successfully learns the correct output for the **AND gate problem**.
-
-
-```python
-
-```
