@@ -11,3 +11,4 @@ Chapters:
     -   [Perceptron vs
         Neuron](chapters/Basics-of-NN/Neuron/Preceptron-Neuron)
     -   [Weight](chapters/Basics-of-NN/Weight)
+    -   [Trial](chapters/Basics-of-NN/trial)
