@@ -63,11 +63,13 @@ $$
 $$
 
 Where:
-- $x_i$: Input features
-- $w_i$: Weights applied to inputs
-- $b$: Bias term
-- $f$: Activation function (e.g., sigmoid, ReLU)
-- $y$: Output
+
+- \( x_i \): Input features
+- \( w_i \): Weights applied to inputs
+- \( b \): Bias term
+- \( f \): Activation function (e.g., sigmoid, ReLU)
+- \( y \): Output
+
 
 ### **Components:**
 - **Inputs**: Data fed into the neuron (e.g., pixel values of an image).
@@ -99,3 +101,8 @@ Where:
 
 Understanding this analogy helps bridge the gap between neuroscience and artificial intelligence, providing a strong foundation for grasping how neural networks function.
 
+
+
+```python
+
+```
