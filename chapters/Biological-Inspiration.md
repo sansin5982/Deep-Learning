@@ -79,7 +79,7 @@ activation function, and produces an output.
 **Mathematically**:
 
 $$
-\large y = f\left(\sum\_{i=1}^{n} w\_i x\_i + b\right)
+\large y = f\left(\sum\_{i=1}^{n} w{\scriptstyle i} x{\scriptstyle i} + b\right)
 $$
 
 <script type="text/javascript" async
