@@ -90,9 +90,10 @@ A small subset of the dataset used to train the model at one time.
 One update of the model’s parameters;
 
 $$
-\large \text{Iterations per Epoch} = \frac{\text{Dataset Size}}{\text{Batch Size}}
+\Large \text{Iterations per Epoch} = \frac{\text{Dataset Size}}{\text{Batch Size}}
 $$
-—
+
+------------------------------------------------------------------------
 
 ### Overfitting
 
