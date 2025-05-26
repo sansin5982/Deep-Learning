@@ -8,6 +8,10 @@ The foundation of artificial neural networks is inspired by the **structure and 
 In our brain, we have **neurons**, which are like tiny messengers.  
 Each neuron receives information from other neurons, processes it, and sends the result to other neurons.
 
+<img src="/Figures/neuron.png" alt="Neuron Structure" width="800"/>
+
+
+*Image credit: ([link](https://www.shutterstock.com/search/neuron-diagram))*
 
 ### **Structure and Function of Biological Neurons**
 
@@ -64,11 +68,11 @@ $$
 
 Where:
 
-- \( x_i \): Input features
-- \( w_i \): Weights applied to inputs
-- \( b \): Bias term
-- \( f \): Activation function (e.g., sigmoid, ReLU)
-- \( y \): Output
+- $x_i$: Input features
+- $w_i$: Weights applied to inputs
+- $b$: Bias term
+- $f$: Activation function (e.g., sigmoid, ReLU)
+- $y$: Output
 
 
 ### **Components:**
