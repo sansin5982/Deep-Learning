@@ -162,10 +162,15 @@ data, leading to poor performance on both training and unseen data.
 </tbody>
 </table>
 
-------------------------------------------------------------------------
-
-Understanding these core concepts and techniques provides a strong
-foundation in neural networks, enabling further exploration of advanced
-deep learning topics and applications.
-
-------------------------------------------------------------------------
+<table style="width:6%;">
+<colgroup>
+<col style="width: 5%" />
+</colgroup>
+<tbody>
+<tr>
+<td>### Summary Understanding these core concepts and techniques
+provides a strong foundation in neural networks, enabling further
+exploration of advanced deep learning topics and applications.</td>
+</tr>
+</tbody>
+</table>
