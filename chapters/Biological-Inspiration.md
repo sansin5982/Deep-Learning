@@ -79,12 +79,8 @@ activation function, and produces an output.
 **Mathematically**:
 
 $$
-\large y = f\left(\sum\_{i=1}^{n} w{\scriptstyle i} x{\scriptstyle i} + b\right)
+\large y = f\left(\sum w{\scriptstyle i} x{\scriptstyle i} + b\right)
 $$
-
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
 
 Where:
 
