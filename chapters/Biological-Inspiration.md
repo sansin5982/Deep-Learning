@@ -1,3 +1,8 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # Biological Inspiration in Neural Networks
 
 The foundation of artificial neural networks is inspired by the
@@ -72,14 +77,14 @@ Each artificial neuron performs a weighted sum of inputs, applies an
 activation function, and produces an output.
 
 **Mathematically**:
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
 
 $$
 \large y = f\left(\sum\_{i=1}^{n} w\_i x\_i + b\right)
 $$
+
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 Where:
 
