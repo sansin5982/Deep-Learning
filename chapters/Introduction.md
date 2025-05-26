@@ -1,12 +1,9 @@
-<img src="Figures/Brain.jpg" alt="Figure 1: Phases of cell cycle"  />
-<p class="caption">
-Figure 1: Phases of cell cycle
-</p>
+# Introduction to Deep Learning
+
+<img src="Figures/Brain.jpg" style="display: block; margin: auto;" />
 
 [Image
 Credit](https://www.ileafsolutions.com/demystifying-deep-learning-a-beginners-guide)
-
-# Introduction to Deep Learning
 
 **Deep Learning (DL)** is a subfield of Machine Learning (ML) within
 Artificial Intelligence (AI), focused on algorithms inspired by the
