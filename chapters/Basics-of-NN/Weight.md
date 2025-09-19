@@ -36,18 +36,21 @@ Thus, **weights tell the model which input is more important in decision-making.
 ---
 
 ### Mathematical View:
+
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
+
 $$
 \text{Output} = \text{Activation}(w_1 \times x_1 + w_2 \times x_2 + \ldots + w_n \times x_n + b)
 $$
 
 Where:
-- \( w_1, w_2, \ldots, w_n\ ) = **weights**
-- \(x_1, x_2, \ldots, x_n\) = **inputs**
-- (\ b\ ) = bias
+
+- $w_1, w_2, \ldots, w_n$ = **weights**
+- $x_1, x_2, \ldots, x_n$ = **inputs**
+- $ b$ = bias
 - **Activation function** = makes the output non-linear (like decision-making)
 
 ---
@@ -121,13 +124,10 @@ This **learning process** is done using algorithms like **Gradient Descent**.
 
 #### Mathematical View (Simplified)
 $$
-\text{New Weight} = \text{Old Weight} - \alpha \times \frac{\partial \text{Error}}{\partial \text{Weight}}
+\large \text{New Weight} = \text{Old Weight} - \alpha \times \frac{\partial \text{Error}}{\partial \text{Weight}}
 $$
 
 Where:  
-- \( \alpha \): Learning Rate (small positive number)  
-- \( \frac{\partial \text{Error}}{\partial \text{Weight}} \): Gradient of Error with respect to Weight  
-
 
 - $\alpha$: Learning Rate (small positive number)  
 - $\frac{\partial \text{Error}}{\partial \text{Weight}}$: Gradient of Error with respect to Weight  
@@ -157,8 +157,3 @@ Where:
 
 ---
 
-
-
-```python
-
-```
