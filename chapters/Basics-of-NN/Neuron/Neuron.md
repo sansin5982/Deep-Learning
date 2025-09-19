@@ -143,6 +143,7 @@ This is what a neuron does!
 * Too many workers → waste of resources, possible errors (overfitting).
 
 #### Be careful
+
 | Problem          | Cause                                  | Solution                                   |
 | ---------------- | -------------------------------------- | ------------------------------------------ |
 | **Underfitting** | Too few neurons, model too simple      | Add more neurons/layers                    |
@@ -162,6 +163,7 @@ This is what a neuron does!
 * **Subsequent hidden layers**: Gradually decrease the number of neurons.
 * Forms a **pyramid shape** from input to output.
 * Example (for Diabetes Dataset with 8 features):
+  
     * Hidden Layer 1: 16-24 neurons
     * Hidden Layer 2: 8-12 neurons
     * Output Layer: 1 neuron (binary classification)
@@ -244,6 +246,7 @@ $$
     * More scalable for **complex tasks**.
 
 ### 6. Practical Reasons for Many Layers
+
 | Reason                      | Why It Helps                                         |
 | --------------------------- | ---------------------------------------------------- |
 | **Hierarchical Learning**   | Learns from simple to complex patterns step-by-step. |
