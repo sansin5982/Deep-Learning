@@ -1,3 +1,5 @@
+# Perceptron and Neuron
+
 ## Difference Between Perceptron and Neuron (Artificial Neuron) in Deep Learning
 
 ---
@@ -61,11 +63,18 @@ $$
 
 #### Neuron (Artificial Neuron):
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+
 $$
 Output = Activation\left(\sum (w_i \times x_i) + b\right)
 $$
 
 Where **Activation** can be:
+
 - Sigmoid: $\frac{1}{1 + e^{-x}}$
 - ReLU: $\text{max}(0, x)$
 - Tanh: $\frac{e^x - e^{-x}}{e^x + e^{-x}}$
@@ -111,3 +120,8 @@ $\text {[Input Layer]} → \text {[Neuron with ReLU/Sigmoid]} → \text {Output 
 > The artificial neuron (with modern activation functions) is the flexible, powerful building block of deep learning models that can solve complex, real-world problems.**
 
 
+
+
+```python
+
+```

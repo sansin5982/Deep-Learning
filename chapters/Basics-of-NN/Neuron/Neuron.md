@@ -53,10 +53,10 @@ $$
 $$
 
 Where:
-- \( w_i \) = weight
-- \( x_i \) = input
-- \( b \) = bias
-- Activation() = function like Sigmoid, ReLU
+- $w_{i}$ = weight
+- $x_{i}$ = input
+- $b$ = bias
+- $Activation()$ = function like Sigmoid, ReLU
 
 ---
 
@@ -222,6 +222,7 @@ $$
 * But real-world problems (images, speech, text, medical data) involve complex non-linear patterns.
 
 ### 3. Why More Hidden Layers?
+
 | Hidden Layers        | Role / Purpose                                                                  |
 | -------------------- | ------------------------------------------------------------------------------- |
 | **1st hidden layer** | Learns basic features (e.g., edges in images, basic relations in data)          |
