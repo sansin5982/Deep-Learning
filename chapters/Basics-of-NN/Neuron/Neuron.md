@@ -29,8 +29,14 @@ Credit](https://www.jaroeducation.com/blog/complete-guide-to-artificial-neural-n
     -   Weighted sum of inputs:
 
 $$ 
-\large z = \sum\_{i=1}^{n} w\_i x\_i + b
+\large z = \underset{i=1}{\sum}^{n} w{\scriptstyle i} x{\scriptstyle i} + b
 $$
+
+Where:
+
+-   *w*<sub>*i*</sub> = weight
+-   *x*<sub>*i*</sub> = input
+-   *b* = bias
 
 1.  **Activation Function:**
     -   Applies a function to add non-linearity (like decision-making).
@@ -43,7 +49,7 @@ $$
 ## Mathematical Formula
 
 $$
-\text{Output} = \text{Activation} \left(\underset{i=1}{\sum}^{n} w{\scriptstyle i} x{\scriptstyle i} + b\right)
+\large \text{Output} = \text{Activation} \left(\underset{i=1}{\sum}^{n} w{\scriptstyle i} x{\scriptstyle i} + b\right)
 $$
 
 Where:
