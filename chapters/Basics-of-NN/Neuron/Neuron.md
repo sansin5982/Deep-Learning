@@ -29,7 +29,7 @@ Credit](https://www.jaroeducation.com/blog/complete-guide-to-artificial-neural-n
     -   Weighted sum of inputs:
 
 $$ 
-\large z = \sum\_{i=1}^n w\_i x\_i + b
+\large z = \sum\_{i=1}^{n} w\_i x\_i + b
 $$
 
 1.  **Activation Function:**
@@ -43,7 +43,7 @@ $$
 ## Mathematical Formula
 
 $$
-\text{Output} = \text{Activation}\Bigg(\sum\_{i=1}^{n} w\_{i}x\_{i} + b\Bigg)
+\text{Output} = \text{Activation}\\\left(\sum\limits\_{i=1}^{n} w\_{i} x\_{i} + b\right)
 $$
 
 Where:
@@ -51,7 +51,7 @@ Where:
 -   *w*<sub>*i*</sub> = weight
 -   *x*<sub>*i*</sub> = input
 -   *b* = bias
--   *A**c**t**i**v**a**t**i**o**n*() = function like Sigmoid, ReLU
+-   Activation() = function like Sigmoid, ReLU
 
 ------------------------------------------------------------------------
 
