@@ -43,7 +43,7 @@ $$
 ## Mathematical Formula
 
 $$
-\text{Output} = \text{Activation}\\\left(\underset{i=1}{\sum}^{n} w\_{\scriptstyle i} x\_{\scriptstyle i} + b\right)
+\text{Output} = \text{Activation} \left(\underset{i=1}{\sum}^{n} w{\scriptstyle i} x{\scriptstyle i} + b\right)
 $$
 
 Where:
