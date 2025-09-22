@@ -46,8 +46,12 @@ $$
 \text{Output} = \text{Activation}\Bigg(\sum\_{i=1}^{n} w\_{i}x\_{i} + b\Bigg)
 $$
 
-Where: - *w*<sub>*i*</sub> = weight - *x*<sub>*i*</sub> = input - *b* =
-bias - *A**c**t**i**v**a**t**i**o**n*() = function like Sigmoid, ReLU
+Where:
+
+-   *w*<sub>*i*</sub> = weight
+-   *x*<sub>*i*</sub> = input
+-   *b* = bias
+-   *A**c**t**i**v**a**t**i**o**n*() = function like Sigmoid, ReLU
 
 ------------------------------------------------------------------------
 
