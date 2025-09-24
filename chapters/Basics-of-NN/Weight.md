@@ -151,8 +151,9 @@ $$
 
 Where:
 
--   *α*: Learning Rate (small positive number)  
--   $\frac{\partial \text{Error}}{\partial \text{Weight}}$: Gradient of
+-   *α* - Learning Rate (small positive number)
+
+-   $\frac{\partial \text{Error}}{\partial \text{Weight}}$ - Gradient of
     Error with respect to Weight
 
 ------------------------------------------------------------------------
