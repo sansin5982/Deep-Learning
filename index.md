@@ -13,4 +13,4 @@ Chapters:
     -   [Input Layer](chapters/Basics-of-NN/Input)
     -   [Weight](chapters/Basics-of-NN/Weight)
     -   [Hidden Layer](chapters/Basics-of-NN/Hidden-layer)
-    -   [Output Layer](chapters/Basics-of-NN/Output-layer)
+    -   [Output Layer](chapters/Basics-of-NN/Output)
