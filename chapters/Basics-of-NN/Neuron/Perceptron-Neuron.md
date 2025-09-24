@@ -138,11 +138,6 @@ on data</strong></td>
 
 ### Mathematical View
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
 #### Perceptron:
 
 $$
@@ -155,7 +150,9 @@ $$
 
 #### Neuron (Artificial Neuron):
 
-*O**u**t**p**u**t* = *A**c**t**i**v**a**t**i**o**n*(∑(*w*<sub>*i*</sub> × *x*<sub>*i*</sub>) + *b*)
+$$
+\large \text{Output} = \text{Activation} \left(\underset{i=1}{\sum}^{n} w{\scriptstyle i} x{\scriptstyle i} + b\right)
+$$
 
 Where **Activation** can be:
 
