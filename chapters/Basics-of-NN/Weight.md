@@ -1,5 +1,11 @@
 # Weight
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+
 In deep learning, **weights are numbers that represent the importance of each input to a neuron**.  
 They **control how much influence an input has on the output of a neuron**.
 
@@ -36,11 +42,6 @@ Thus, **weights tell the model which input is more important in decision-making.
 ---
 
 ### Mathematical View:
-
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
 
 $$
 \text{Output} = \text{Activation}(w_1 \times x_1 + w_2 \times x_2 + \ldots + w_n \times x_n + b)
