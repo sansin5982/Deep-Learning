@@ -10,4 +10,5 @@ Chapters:
     -   [Neuron](chapters/Basics-of-NN/Neuron/Neuron)
     -   [Perceptron vs
         Neuron](chapters/Basics-of-NN/Neuron/Perceptron-Neuron)
+    -   [Input Layer](chapters/Basics-of-NN/Neuron/Input-Layer)
     -   [Weight](chapters/Basics-of-NN/Weight)
